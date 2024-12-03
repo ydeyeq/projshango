@@ -1,0 +1,6 @@
+# Promtail values configuration placeholder
+
+# Endpoint that recieves scraped logs
+config:
+  clients:
+    - url: http://loki-loki-distributed-gateway.monitoring.svc.cluster.local:80/loki/api/v1/push
